@@ -75,7 +75,7 @@ button:focus {
 .contact {
   font-style: normal;
 }
-.contact-item a {
+.contact-item {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -83,7 +83,7 @@ button:focus {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.contact-item a:hover {
+.contact-item:hover {
   color: #404bbf;
 }
 .hero {
@@ -107,12 +107,12 @@ button:focus {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #404bbf;
+  color: #ffffff;
 }
 .hero-btn:hover {
   background: var(--ocean);
 }
-.title {
+.features-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -152,7 +152,7 @@ button:focus {
   color: var(--slate);
   font-family: var(--font-family);
 }
-.profolio-title {
+.portfolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -161,7 +161,7 @@ button:focus {
   font-family: var(--font-family);
   color: #2e2f42;
 }
-.profolio-text {
+.portfolio-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
