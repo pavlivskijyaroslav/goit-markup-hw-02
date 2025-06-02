@@ -26,7 +26,7 @@ a {
 li {
   list-style-type: none;
 }
-h2 {
+.title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -84,6 +84,9 @@ button:focus {
   color: var(--slate);
 }
 .contact-item:hover {
+  color: #404bbf;
+}
+.contact-item:focus {
   color: #404bbf;
 }
 .hero {
