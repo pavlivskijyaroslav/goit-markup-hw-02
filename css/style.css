@@ -16,7 +16,8 @@
 }
 body {
   font-family: 'Roboto', sans-serif;
-  color: var(--navy-blue);
+  color: #434455;
+  background-color: #ffffff;
 }
 a {
   text-decoration: none;
@@ -28,9 +29,10 @@ li {
 h2 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.11111;
+  line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
 }
 button {
   cursor: pointer;
@@ -38,29 +40,32 @@ button {
 .span-logo {
   font-weight: 700;
   font-size: 18px;
-  font-family: var(--second-family);
   line-height: 1.16667;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris);
+  color: #2e2f42;
 }
 .logo {
+  color: #4d5ae5;
   font-weight: 700;
   font-size: 18px;
   font-family: var(--second-family);
-  line-height: 1.16667;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-.menu li a {
+.menu-item {
   font-family: var(--font-family);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
 }
-.menu li a:hover {
-  color: var(--ocean);
+.menu-item:hover {
+  color: #404bbf;
+}
+.contact {
+  font-style: normal;
 }
 .contact a {
   font-family: var(--font-family);
@@ -76,41 +81,37 @@ button {
 .hero {
   background: var(--navy-blue);
 }
-.hero h1 {
+.hero-title {
   font-family: var(--font-family);
   font-weight: 700;
   font-size: 56px;
-  line-height: 1.07143;
+  line-height: 1.07;
   letter-spacing: 0.02em;
   text-align: center;
   color: var(--white);
 }
+
 .hero-btn {
   font-family: var(--font-family);
   border: 0;
-  border-radius: 4px;
-  width: 169px;
-  height: 56px;
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--iris);
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: var(--white);
+  color: #404bbf;
 }
 .hero-btn:hover {
-  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
   background: var(--ocean);
 }
-.features-list h3 {
+.features-item h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-family: var(--font-family);
 }
-.features-list p {
+.features-item p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -118,7 +119,13 @@ button {
   color: var(--slate);
   font-family: var(--font-family);
 }
-.team-list h3 {
+.team {
+  background-color: #f4f4fd;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-item h3 {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
@@ -126,7 +133,7 @@ button {
   text-align: center;
   font-family: var(--font-family);
 }
-.team-list p {
+.team-item p {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -163,6 +170,6 @@ footer p {
   color: var(--cloud);
   font-family: var(--font-family);
 }
-footer .logo {
+footer .span-logo {
   color: var(--cloud);
 }
