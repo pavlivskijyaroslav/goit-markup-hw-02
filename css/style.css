@@ -33,9 +33,14 @@ h2 {
   letter-spacing: 0.02em;
   text-align: center;
   text-transform: capitalize;
+  color: #2e2f42;
 }
 button {
   cursor: pointer;
+  color: #ffffff;
+}
+button:focus {
+  background-color: #404bbf;
 }
 .span-logo {
   font-weight: 700;
@@ -64,10 +69,13 @@ button {
 .menu-item:hover {
   color: #404bbf;
 }
+.menu-item:focus {
+  color: #404bbf;
+}
 .contact {
   font-style: normal;
 }
-.contact a {
+.contact-item a {
   font-family: var(--font-family);
   font-weight: 400;
   font-size: 16px;
@@ -75,8 +83,8 @@ button {
   letter-spacing: 0.02em;
   color: var(--slate);
 }
-.contact a:hover {
-  color: var(--ocean);
+.contact-item a:hover {
+  color: #404bbf;
 }
 .hero {
   background: var(--navy-blue);
@@ -104,14 +112,15 @@ button {
 .hero-btn:hover {
   background: var(--ocean);
 }
-.features-item h3 {
+.title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   font-family: var(--font-family);
+  color: #2e2f42;
 }
-.features-item p {
+.features-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -125,15 +134,16 @@ button {
 .team-item {
   background-color: #ffffff;
 }
-.team-item h3 {
+.team-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   font-family: var(--font-family);
+  color: #2e2f42;
 }
-.team-item p {
+.team-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -142,15 +152,16 @@ button {
   color: var(--slate);
   font-family: var(--font-family);
 }
-.profolio-list h3 {
+.profolio-title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   text-align: center;
   font-family: var(--font-family);
+  color: #2e2f42;
 }
-.profolio-list p {
+.profolio-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -159,10 +170,10 @@ button {
   color: var(--slate);
   font-family: var(--font-family);
 }
-footer {
+.about {
   background: var(--navy-blue);
 }
-footer p {
+.about-text {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
